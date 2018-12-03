@@ -7,3 +7,5 @@
 def getCount(inputStr)
   #your code here
 end
+
+# Test.assert_equals(getCount("abracadabra"), 5)
