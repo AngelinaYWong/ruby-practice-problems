@@ -2,8 +2,14 @@
 
 def FirstReverse(str)
 
-  # code goes here
-  return str
+  newString = ""
+  range = (str.length - 1)..0
+  
+  (range.first).downto(range.last).each do |x|
+      newString += str[x]
+  end
+
+  return newString
 
 end
 
