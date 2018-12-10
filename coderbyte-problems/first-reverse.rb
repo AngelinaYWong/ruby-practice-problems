@@ -4,7 +4,7 @@ def FirstReverse(str)
 
   newString = ""
   range = (str.length - 1)..0
-  
+
   (range.first).downto(range.last).each do |x|
       newString += str[x]
   end
@@ -13,5 +13,5 @@ def FirstReverse(str)
 
 end
 
-# keep this function call here
+
 puts FirstReverse(STDIN.gets)
