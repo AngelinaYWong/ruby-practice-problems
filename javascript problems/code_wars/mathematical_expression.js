@@ -17,3 +17,10 @@
 // You need to support multiple levels of nested parentheses, ex. (2 / (2 + 3.33) * 4) - -6
 
 // An addition to this rule is that the minus sign (-) used for negating numbers and parentheses will never be separated by whitespace. I.e., all of the following are valid expressions.
+// 1- 1   // 0
+// 1 - 1  // 0
+// 1- -1  // 2
+// 1 - -1 // 2
+//
+// 6 + -(4)   // 2
+// 6 + -( -4) // 10
