@@ -4,8 +4,6 @@
 // Inputs 1 <= n <= 18 will be tested
 //
 // Each n will be tested against random invalid tests and random valid tests (which may or may not pass the regex test itself, accordingly).
-//
-// Notes
+
 // Strings that are not binary numbers should be rejected.
-// Keep your solution under 5000 characters. This means you can't hard-code the answers.
 // Only these characters may be included in your returned string: 01?:*+^$()[]|
