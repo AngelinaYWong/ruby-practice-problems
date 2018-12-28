@@ -8,3 +8,11 @@
 // Input:"fun times!"
 //
 // Output:"gvO Ujnft!"
+function LetterChanges(str) {
+
+  return str;
+
+}
+
+
+LetterChanges(readline());
