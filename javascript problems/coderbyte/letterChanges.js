@@ -20,6 +20,3 @@ var newStr = '';
   return newStr;
 
 }
-
-
-LetterChanges(readline());
