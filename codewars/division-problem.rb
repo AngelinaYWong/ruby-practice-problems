@@ -2,6 +2,8 @@
 
 def divisors(n)
   #your code here
+  #solve recursively ?
+  #push into array and reverse
 end
 
 Test.assert_equals(divisors(15), [3,5])
