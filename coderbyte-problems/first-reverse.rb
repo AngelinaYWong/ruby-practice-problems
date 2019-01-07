@@ -12,6 +12,3 @@ def FirstReverse(str)
   return newString
 
 end
-
-
-puts FirstReverse(STDIN.gets)
