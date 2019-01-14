@@ -15,8 +15,7 @@ function AlphabetSoup(str) {
   var reversearrays = arrays.sort();
   var result = reversearrays.join("");
 
-
-    return result; 
+  return result;
 
 }
 
