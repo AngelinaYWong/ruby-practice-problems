@@ -11,8 +11,12 @@
 // Output:"ahhloop"
 function AlphabetSoup(str) {
 
-  // code goes here
-  return str;
+  var arrays = str.split("");
+  var reversearrays = arrays.sort();
+  var result = reversearrays.join("");
+
+
+    return result; 
 
 }
 
